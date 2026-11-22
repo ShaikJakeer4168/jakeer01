@@ -18,7 +18,7 @@ def program2():
     print(len(str1))  
 
 
-    
+
 #program3:reverse a string 
 def program3():
     s = input("Enter a string:")
@@ -34,6 +34,21 @@ def program4():
     else:
         print("Given string is not a polindram")
 
+#program5:Count of uppercase and lowercase letters
+def program5():
+    a = input("Enter a string")
+    upper = 0
+    lower = 0
+    for i in a:
+        if i.isupper():
+            upper += 1
+        elif i.islower():
+            lower += 1
+    print("Uppercase:",upper)
+    print("Lowercase:",lower)
+
+
+    
 
 
                     
