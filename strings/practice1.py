@@ -1,4 +1,4 @@
-#Program 1: Vowels and Consonants
+
 name = input("Enter your name: ")
 v = 0
 c = 0
