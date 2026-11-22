@@ -9,8 +9,7 @@ def program1():
         else:
                 c += 1
     print("Number of vowels:", v)
-    print("Number of consonants:", c)
-<<<<<<< HEAD
+    print("Number of consonants:")
 
 
 #program2:no.of charecters
@@ -19,12 +18,25 @@ def program2():
     print(len(str1))  
 
 
->>>>>>> 8883b0b (program2)
-
+    
 #program3:reverse a string 
 def program3():
     s = input("Enter a string:")
     print(s[::-1])    
+
+#program4:polindram
+def program4():
+    a = input("Enter a string:")
+    temp = a 
+    b = a[::-1]
+    if temp == b:
+        print("Given string is a polindram")
+    else:
+        print("Given string is not a polindram")
+
+
+
+                    
 
 
    
