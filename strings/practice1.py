@@ -1,7 +1,4 @@
-#name = "python"
-#print(name.upper())
-#print(name[::-1])
-#print(len(name))
+#Program 1: Vowels and Consonants
 name = input("Enter your name: ")
 v = 0
 c = 0
