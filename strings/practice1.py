@@ -48,6 +48,22 @@ def program5():
     print("Lowercase:",lower)
 
 
+#program6: To count words in a sentence
+def program6():
+    s = input("Enter a sentence")
+    words = s.split() 
+    print("No.of words in your sentence :",len(words) )
+
+
+#program7: Frequncy of a charecter
+def program7():
+    v = "Banana"
+    print (v.count("a"))
+
+ 
+
+
+
     
 
 
